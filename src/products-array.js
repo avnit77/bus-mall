@@ -5,27 +5,6 @@ export class ProductArray {
         this.products = products.slice();
     }
 
-    getProducts() {
-        return this.products;
-    }
-
-    removeProduct(someId) {
-        this.products.forEach (product => {
-            if (someId === product.id) {
-                this.products.splice(someId, 1);
-            }
-        });
-    }
-
-    getProductById(id) {
-        let productChoice;
-
-        this.forEach(product => {
-            product.id === id;
-        });
-        return productChoice;
-    }
-
     getRandomProduct() {
         const randomProductIndex = Math.floor(Math.random() * this.products.length);
     

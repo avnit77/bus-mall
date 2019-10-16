@@ -10,9 +10,6 @@ let threeOptions = [];
 
 store.clearRoundData();
 
-
-
-
 function displayOptions() {
     threeOptions = newProductArray.generateOptions();
     let image1 = document.getElementById('option1');
@@ -29,9 +26,7 @@ function displayOptions() {
     value3.value = threeOptions[2].id;
 }
 
-
 displayOptions();
-
     
 for (let i = 0; i < radioInputs.length; i++) {
     let radioInput = radioInputs[i];
@@ -45,7 +40,6 @@ for (let i = 0; i < radioInputs.length; i++) {
 function finalResults(){
     nextButton.disabled = true;
     store.recordAllTimeData();
-    // store.recordDisplays();
     return;
 }
 
