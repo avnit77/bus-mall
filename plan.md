@@ -7,7 +7,7 @@ Build HTML skeleton
 Create JS products array
     -list all products
     -assign id, name, img
-Create variables to store data <=
+Create variables to store data 
     random function
     assign to three choices
     keep from repeating 
