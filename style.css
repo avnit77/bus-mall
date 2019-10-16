@@ -3,3 +3,6 @@
     flex-direction: row;
 }
 
+.hidden{
+    display: none;
+}
