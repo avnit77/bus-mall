@@ -26,7 +26,3 @@ export class ProductArray {
         return optionArray;
     }
 }
-    
-
-//three random products onto screen
-//add event listener -> removes from array
