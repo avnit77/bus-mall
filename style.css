@@ -1,0 +1,13 @@
+#product-display{
+    display: flex;
+    flex-direction: row;
+}
+
+.hidden{
+    display: none;
+}
+
+canvas {
+    width: 75%;
+    height: 500px;
+  }
